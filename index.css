@@ -1,0 +1,117 @@
+#top{
+	background-image: url("galets.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10px 20px ;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+#soustop{
+	opacity: 0.8;
+	z-index: 100;
+	position: relative;
+	padding: 1px 20px;
+	background-color: #C8C8C8;   
+	text-align: center;
+
+}
+
+#top h1{
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-align: center;
+	z-index: 3;
+}
+
+#top h2{
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-align: center;
+}
+
+#navigation{
+	width: 900px;
+	padding: 15;
+	margin: auto;
+	width: -webkit-fit-content;
+	height: -webkit-fit-content;
+	width: -moz-fit-content;
+	height: -moz-fit-content;
+}
+
+#navigation li{
+	display: inline;
+	background: #bcc0c2;
+	background-image: -webkit-linear-gradient(top, #bcc0c2, #cccccc);
+	background-image: -moz-linear-gradient(top, #bcc0c2, #cccccc);
+	background-image: -ms-linear-gradient(top, #bcc0c2, #cccccc);
+	background-image: -o-linear-gradient(top, #bcc0c2, #cccccc);
+	background-image: linear-gradient(to bottom, #bcc0c2, #cccccc);
+	-webkit-border-radius: 7;
+	-moz-border-radius: 7;
+	border-radius: 7px;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+#navigation li:hover {
+	background: #cfcfcf;
+	background-image: -webkit-linear-gradient(top, #cfcfcf, #d1d1d1);
+	background-image: -moz-linear-gradient(top, #cfcfcf, #d1d1d1);
+	background-image: -ms-linear-gradient(top, #cfcfcf, #d1d1d1);
+	background-image: -o-linear-gradient(top, #cfcfcf, #d1d1d1);
+	background-image: linear-gradient(to bottom, #cfcfcf, #d1d1d1);
+	text-decoration: none;
+}
+
+#navigation li a {
+	text-decoration : none;
+	color: #0082a6;
+	font-family: Calibri, Verdana;
+}
+
+body{
+	margin: auto;
+	width: 900px;
+}
+
+section{
+	width: 900px;
+	margin: auto;
+}
+
+article{
+	text-align: justify-all;
+	font-family: Calibri;
+	opacity: 0.8;
+	padding: 10;
+	background-color: #C8C8C8;  
+}
+
+
+#footer{
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-align: right;
+	width: 900px;
+	margin: auto;
+}

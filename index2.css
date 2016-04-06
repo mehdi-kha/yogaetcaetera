@@ -1,0 +1,53 @@
+.menu {
+margin-bottom: 0px;
+	background-image: url(images/galets.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     background: rgb(218,224,227); /* This is for ie8 and below */
+   background: rgba(218,224,227, 0.8);  
+   padding-top: 5px;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+nav{
+	padding-top: 10px;
+
+}
+
+.paragraphe1{
+	padding-top: 30px;
+	max-width: 1000px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+.page-header{
+	padding: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: white;
+	background-color: #458B00;
+}
+
+.page-header h1{
+font-size: 40px;
+}
+
+.text-right{
+	padding: 0px;
+	margin-bottom: 30px;
+	text-align: right;
+	color: white;
+	background-color: #458B00;
+}
+.logo{
+	max-width: 150px;
+	max-height: 150px;
+	margin: 50px;
+
+}
+.row{
+	padding-bottom: 10px;
+}
